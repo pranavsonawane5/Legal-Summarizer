@@ -1,0 +1,32 @@
+{
+  "name": "legal-summarizer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "legal",
+    "summarizer",
+    "pdf",
+    "ai"
+  ],
+  "author": "Pranav",
+  "license": "ISC",
+  "description": "A web app to summarize 8–10 page legal PDFs with ~85–90% accuracy using Hugging Face API, featuring interactive Q&A and legal term highlighting.",
+  "dependencies": {
+    "@huggingface/inference": "^4.0.2",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "franc": "^6.2.0",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.1",
+    "p-limit": "^6.2.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
